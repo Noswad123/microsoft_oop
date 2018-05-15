@@ -32,5 +32,9 @@ namespace Module1SellfAssessment.Models
         {
             return name;
         }
+        public int GetCount()
+        {
+            return StudentCount;
+        }
     }
 }

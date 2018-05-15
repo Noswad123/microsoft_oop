@@ -27,8 +27,7 @@ namespace Module1SellfAssessment.Models
             foreach(Course course in courses)
             { 
                 Console.WriteLine(course.MyName());
-
-                Console.WriteLine($"Student Roster {course.StudentCount}");
+                Console.WriteLine($"Student Roster {course.GetCount()}");
                 course.DisplayStudents();
             }
         }

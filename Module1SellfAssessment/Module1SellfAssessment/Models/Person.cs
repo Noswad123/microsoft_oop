@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace Module1SellfAssessment.Models
 {
-    class Student:Person
+    class Person
     {
-        static int studentCount;
-        
-        public Student()
-        {           
-            studentCount++;
+        string name { get; set; }
+
+        public string MyName(string x)
+        {
+            name = x;
+            return name;
         }
-        
     }
 }
